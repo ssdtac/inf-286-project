@@ -1,7 +1,16 @@
 #page {
     background-image: url("../images/background-1.jpg"), linear-gradient(to bottom, rgba(255, 99, 71, 0.5), rgb(235, 129, 110));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #logo-img {}
 
-.top-bar {}
+.top-bar {
+    background-color: transparent;
+}
+
+body {
+    background-color: transparent;
+}
