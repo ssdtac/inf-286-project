@@ -1,16 +1,43 @@
 #page {
-    background-image: url("../images/background-1.jpg"), linear-gradient(to bottom, rgba(255, 99, 71, 0.5), rgb(235, 129, 110));
+    background-image: url("../images/background-1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-#logo-img {}
-
-.top-bar {
-    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
 }
 
 body {
-    background-color: transparent;
+    background-color: transparent !important;
+}
+
+.sticky {
+    position: fixed;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    background-color: #2C2F33;
+}
+
+#navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-item-link:hover {
+    color: tomato;
+    text-decoration: none;
+}
+
+.nav-item-link {
+    color: white;
 }
