@@ -1,3 +1,24 @@
+/* here put CSS for smaller screens (mobile) */
+
+@media screen and (max-width: 1024px) {
+    .nav-item-link {
+        font-size: 8px;
+    }
+    #navbar {}
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        display: none !important;
+    }
+}
+
+
+/* here put css that only needs to happen on desktop, it's likely there wont be any*/
+
+
+/* here put css that needs to happen no matter what */
+
 #page {
     background-image: url("../images/background-1.jpg");
     background-repeat: no-repeat;
