@@ -32,7 +32,6 @@ body {
     width: 12%;
     height: 100%;
     background-color: #2C2F33;
-    padding-right: 1%;
 }
 
 #navbar {
@@ -43,26 +42,31 @@ body {
     width: 100%;
     height: 100%;
     font-size: 0.8vw;
-    padding-left: 20%;
+    padding-left: 0;
 }
 
 .nav-item {
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.nav-item:hover {
-    color: tomato;
+    width: 100%;
+    padding-left: 20%;
     text-decoration: none;
 }
 
-.white-text {
-    color: white !important;
+.nav-item-link:hover {
+    text-decoration: none;
+    background-color: tomato;
 }
 
-.nav-item-link:hover {
-    color: inherit;
-    text-decoration: inherit;
+.nav-item-link:hover .nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item-link {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
 #logo-img img {
