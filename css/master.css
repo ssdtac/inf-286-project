@@ -56,17 +56,22 @@ body {
 .nav-item-link:hover {
     text-decoration: none;
     background-color: tomato;
+    border: 1px;
 }
 
 .nav-item-link:hover .nav-item {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.nav-item-link .nav-item {
+    transition: 0.3s;
 }
 
 .nav-item-link {
     color: white;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 #logo-img img {
