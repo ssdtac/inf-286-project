@@ -1,0 +1,5 @@
+#content {
+    background: linear-gradient(to bottom, rgba(161, 161, 161, 0.425), rgba(161, 161, 161, 0.425));
+    display: flex;
+    justify-content: space-between;
+}
