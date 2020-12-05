@@ -104,6 +104,12 @@ body {
     width: 80%;
     margin-left: 13%;
     align-self: left;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 2.5%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
 }
 
 .body-header {

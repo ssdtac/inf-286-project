@@ -33,3 +33,7 @@
 #email:hover {
     text-decoration: underline;
 }
+
+#content {
+    margin-bottom: 0%;
+}
