@@ -3,11 +3,6 @@
     flex-direction: column;
 }
 
-hr {
-    border: 1px solid rgb(255, 213, 213);
-    width: 100%;
-}
-
 .body-text {
     font-size: 1.6vw;
 }

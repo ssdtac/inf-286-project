@@ -120,9 +120,14 @@ body {
 
 .body-text {
     width: 100%;
-    font-size: 1.2vw;
+    font-size: 1.2vw !important;
 }
 
 body {
     margin-left: 13%;
+}
+
+hr {
+    border: 1px solid rgb(255, 213, 213) !important;
+    width: 100%;
 }
