@@ -1,5 +1,51 @@
+@media screen and (max-width: 1023px) {
+    #maptext {
+        display: flex;
+        flex-direction: column !important;
+    }
+    /* #map {
+        display: none;
+    } */
+}
+
 #content {
-    background: linear-gradient(to bottom, rgba(161, 161, 161, 0.425), rgba(161, 161, 161, 0.425));
     display: flex;
-    justify-content: space-between;
+    color: white;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 13%;
+}
+
+#header {
+    background-color: transparent;
+    border: 10%;
+    font-size: 4vw;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.body-text {
+    width: 100%;
+    font-size: 1.2vw;
+}
+
+#map {
+    height: 700px;
+    width: 100%;
+    margin-right: 2%;
+}
+
+#maptext {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+}
+
+#text {
+    width: 100%;
+}
+
+.body-header {
+    font-size: 3vw;
 }
