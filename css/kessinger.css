@@ -1,0 +1,28 @@
+.customCon {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.customJum {
+    text-align: center;
+    background-color: transparent!important;
+    margin-top: 35px;
+    border: none!important;
+}
+
+.card {
+    background-color: transparent!important;
+    text-align: center;
+    margin-bottom: 35px;
+    border: none!important;
+}
+
+.my-4 {
+    background: transparent;
+}
+
+#buttonSpacing {
+    margin: 10px;
+    padding: auto;
+}
