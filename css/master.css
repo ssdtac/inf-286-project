@@ -199,6 +199,11 @@ hr {
         font-size: 4vw !important;
     }
 
+    .body-text-big {
+        width: 100%;
+        font-size: 5.6vw !important;
+    }
+
     .sticky {
         position: fixed;
         left: -80%;
