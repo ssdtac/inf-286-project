@@ -1,3 +1,9 @@
 .btn-width {
     width: 13vw !important;
 }
+
+@media only screen and (max-width: 768px) {
+    .btn-width {
+        width: 32vw !important;
+    }
+}

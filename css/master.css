@@ -1,10 +1,3 @@
-/* here put CSS for smaller screens (mobile) */
-
-@media only screen and (max-width: 768px) {
-    html {}
-}
-
-
 /* here put css that only needs to happen on desktop, it's likely there wont be any*/
 
 
@@ -147,4 +140,96 @@ hr {
 .btn-custom:hover {
     background-color: rgb(252, 38, 0) !important;
     border-color: rgb(252, 38, 0) !important;
+}
+
+#mobile-header {
+    display: none;
+}
+
+#hamburger-toggle {
+    display: inline-block;
+    color: white;
+    font-size: 6vw;
+    padding: .2vw 2.5vw;
+    margin: 1vw .8vw;
+}
+
+#hamburger-toggle:hover {
+    background-color: #0809131c;
+    border: 1px solid white;
+}
+
+#glazed {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 85%;
+    z-index: 3;
+    display: none;
+}
+
+/* here put CSS for smaller screens (mobile) */
+
+@media only screen and (max-width: 768px) {
+    #content {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        width: 100%;
+        align-self: left;
+        background-color: rgba(0, 0, 0, 0.507);
+        padding: 4.5%;
+        padding-top: 0.5%;
+        padding-bottom: 1%;
+        margin-bottom: 0.5%;
+        margin-top: 12vw;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .body-header {
+        font-size: 7vw;
+    }
+
+    .body-text {
+        width: 100%;
+        font-size: 4vw !important;
+    }
+
+    .sticky {
+        position: fixed;
+        left: -80%;
+        width: 80%;
+        height: 100%;
+        z-index: 4;
+        background-color: #2C2F33;
+        transition: left 1s;
+    }
+
+    #navbar {
+        font-size: 4vw;
+    }
+
+    #header {
+        font-size: 10vw;
+        margin-bottom: 15px;
+    }
+
+    #mobile-header {
+        display: block;
+        position: fixed;
+        z-index: 2;
+        background-color: #2C2F33;
+        height: 12vw;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    #hamburger-toggle[checked] ~ .sticky {
+        left: 0;
+    }
 }

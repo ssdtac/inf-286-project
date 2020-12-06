@@ -13,9 +13,17 @@
     <title>Contact Us</title>
 </head>
 
-<body>
+<body onclick=collapse()>
     <div id="page">
-        <div class="sticky">
+        <div id="mobile-header">
+            <div id="hamburger-toggle" onclick=hamburgerControl(event)>
+                ≡
+            </div>
+        </div>
+
+        <div id="glazed"></div>
+
+        <div class="sticky" onclick=preventCollapse(event)>
             <div id="logo-img">
                 <img src="images/logo.png" alt="logo">
             </div>

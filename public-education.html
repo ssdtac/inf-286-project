@@ -12,9 +12,17 @@
     <title>Public Education</title>
 </head>
 
-<body>
+<body onclick=collapse()>
     <div id="page">
-        <div class="sticky">
+        <div id="mobile-header">
+            <div id="hamburger-toggle" onclick=hamburgerControl(event)>
+                ≡
+            </div>
+        </div>
+
+        <div id="glazed"></div>
+
+        <div class="sticky" onclick=preventCollapse(event)>
             <div id="logo-img">
                 <img src="images/logo.png" alt="logo">
             </div>
@@ -27,6 +35,11 @@
                 <a href="about.html" class="nav-item-link">
                     <li class="nav-item">
                         About
+                    </li>
+                </a>
+                <a href="apparatus.html" class="nav-item-link">
+                    <li class="nav-item">
+                        Apparatus
                     </li>
                 </a>
                 <a href="https://8ea89a5c-3a40-453d-9ea1-ea967c6b06da.filesusr.com/ugd/148a41_c3addeda3b8f4b8b9feb0ec2765e216f.pdf" target="_blank" class="nav-item-link">
@@ -104,6 +117,7 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

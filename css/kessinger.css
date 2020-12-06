@@ -30,3 +30,9 @@
 .btn-w {
     width: 10vw !important;
 }
+
+@media only screen and (max-width: 768px) {
+    .btn-w {
+        width: 32vw !important;
+    }
+}
