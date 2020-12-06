@@ -1,0 +1,13 @@
+.vehicle-div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.vehicle-image {
+    flex: 1;
+    object-fit: cover;
+}
+
+.vehicle-content {
+    flex: 1;
+}
